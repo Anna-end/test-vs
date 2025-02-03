@@ -1,3 +1,4 @@
 https://Anna-end.github.io/test-vs/cv
 
-https://Anna-end.github.io/rsschool-cv/
+
+https://anna-end.github.io/test-vs/
