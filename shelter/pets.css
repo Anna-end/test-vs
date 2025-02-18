@@ -1,0 +1,183 @@
+body{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.nav-bar{
+
+    height: 120px;
+    display: flex;
+    max-width: 1280px;
+    min-width: 320px;
+    padding-right: 40px;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    
+    flex-basis: 443px;
+    height: 27px;
+    margin-top: 46px;
+}
+.nav-menu .nav-link a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #545454;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.nav-menu .nav-link a:hover{
+    border-bottom: 3px solid #F1CDB3;
+    padding-bottom: 6px;
+} 
+
+.logo{
+    flex-basis: 184px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.logo .title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    text-align: center;
+}
+.logo .subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.pets{
+    max-width: max-content;
+    min-width: min-content;
+    max-width: 1280px;
+    min-width: 320px;
+    background-color: #F6F6F6;  
+}
+.pets .title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #545454;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.pets .cards-container {
+    max-height: min-content ;
+    max-width: 1200px;
+    min-width: 300px;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 40px;
+    padding-top: 45px;
+   
+}
+
+.cards-container .card {
+    width: 270px;
+    height: 435px;
+    background-color: #FAFAFA;
+    text-align: center;
+    
+ 
+    
+}
+.card img{
+    width: 270px;
+    height: 270px;
+}
+.card .pet-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #545454;
+    padding-top: 30px;
+}
+.card .but-card button {
+    width: 187px;
+    height: 52px;
+    border-style: solid;
+    border-color: #F1CDB3;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: #FAFAFA;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.pets .nav-start{
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 100px;
+}
+.pets .navigator{
+   display: flex;
+    column-gap: 20px;
+}
+.navigator .double-arrow button, .arrow button, .page-number button {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border-color: #F1CDB3;
+    column-gap: 20px;
+}
+.navigator .double-arrow button, .arrow button{
+    border-style: solid;
+    background-color:#F6F6F6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #292929;
+}
+.page-number button{
+    border-style: solid;
+    background-color: #F1CDB3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:#292929;
+}
+
+.footer{
+    max-width: 1280px;
+    min-width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 160px;
+    background: linear-gradient(to right, #5B483A, #262425);
+}
+
+.footer .location{
+    width: 302px;
+    height: 234px;
+}
+
+.footer .contacts{
+    width: 278px;
+    height: 234px;   
+}
+.contacts div, .location div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contacts .title-footer, .location .title-footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.footer-puppy{
+    margin-top: 40px;
+}
+
+    
