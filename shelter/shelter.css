@@ -317,6 +317,7 @@ margin-left: 450px;
 .img-donation{
     margin-top: 80px;  
 }
+
 .content-donation{
     width: 380px;
     height: 282px;
@@ -339,7 +340,22 @@ margin-left: 450px;
     
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    color: #545454;
+}
 
+.donat-card{
+    display: flex;
+    gap: 30px;
+    width: 349px;
+    height: 43px;
+    border-radius: 15px;
+    background-color: #F1CDB3;
+}
+
+.donat-card img {
+    padding-top: 10px;
+    padding-left: 15px;
 }
 
 .content-donation .info{
