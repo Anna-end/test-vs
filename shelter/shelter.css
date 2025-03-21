@@ -92,8 +92,7 @@ a{
 
 
 header{
- max-width: 1280px;
- min-width: 320px;
+ 
  max-height: max-content;
  min-width: min-content;
  background: linear-gradient(to right, #5B483A, #262425);
