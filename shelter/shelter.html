@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="shelter.css">
 </head>
 <body>
+  
     <header>
 
   
@@ -26,6 +27,7 @@
               
 
 
+          
                <nav class="navbar__body">
                     <ul class="navbar__menu">
                         <li class="navbar__link"><a class="nav__link" href="#about">About the shelter</a></li>
@@ -34,7 +36,8 @@
                         <li class="navbar__link"><a class="nav__link" href="#footer">Contacts</a></li>
                     </ul>
                 </nav>
-        </div>
+            </div>
+        
     </header>
     
     <main>
@@ -85,7 +88,7 @@
                 <h3 class="pets__heading">Our friends who are looking for a house</h3>
 
                 
-                    <div class="pets__slider ">
+                    <div class="pets__slider">
 
                     <button class="slider__button-left"><img src="shelter.img/Arrow.png" alt=""></button>
                    
@@ -199,21 +202,38 @@
 
               <div class="pop__up__conteiner hidden" >
                 <div class="pop__up__content">
-                  <img src="shelter.img/dog-Jen.png" alt="" width="500px" height="500px">
-                  <div class="pop__up__info">
-                    <div class="header__pop__up"></div>
-                    <h2>Jennifer</h2>
-                    <h3>Dog - Labrador</h3>
-                    <div class="pop__up__text">
-                      <p>Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</p>
-                    </div>
-                    <div class="pop__up__list">
-                      <p>Age: 2 months</p>
-                      <p>Inoculations: none</p>
-                      <p>Diseases: none</p>
-                      <p>Parasites: none</p>
-                    </div>
-                  </div>
+                      <button class="button__pop-up">
+                        <span class="pop-up__button-icon">
+                          <span class="pop-up__button-icon-line"></span>
+                          <span class="pop-up__button-icon-line__too"></span>
+                        </span>
+                      </button>
+
+                    <div class="back__info__pop-up">
+
+                        <div class="conteiner__info">
+                              <img src="shelter.img/dog-Jen.png" alt="" >
+                            
+                              <div class="pop__up__info">
+                                <div class="header__pop__up"></div>
+                                <h2>Jennifer</h2>
+                                <h3>Dog - Labrador</h3>
+
+                                <div class="pop__up__text">
+                                  <p>Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</p>
+                                </div>
+
+                                <div class="pop__up__list">
+                                  <p>Age: 2 months</p>
+                                  <p>Inoculations: none</p>
+                                  <p>Diseases: none</p>
+                                  <p>Parasites: none</p>
+                                </div>
+                                
+                              </div>
+                          </div>
+
+                      </div>
                 </div>
               </div>
 
@@ -221,5 +241,6 @@
 
 
     <script src="menu.js"></script>
+  
 </body>
 </html>
