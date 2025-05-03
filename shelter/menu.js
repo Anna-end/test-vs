@@ -4,9 +4,12 @@
 const slider = document.querySelector('.conteiner__slider__img');
 const sliderImg = document.querySelectorAll('.slider__item');
 const sliderLine = document.querySelector('.slider__img');
+const firstCard = document.querySelector('.slider__item-left');
+const lastCard = document.querySelector('.slider__item-right');
 
 const sliderBtnLeft = document.querySelector('.slider__button-left')
 const sliderBtnRith = document.querySelector('.slider__button-right')
+
 
 let sliderCount = 0;
 let sliderWidth = slider.offsetWidth;
@@ -66,20 +69,35 @@ if (menu && menuBrg) {
 /*----------------------------------------- */ 
 
 /* Открытие и закрытие поп-ап карточки */ 
+ //*
+ const popButton = document.querySelector('.button__slider__pet');
+
+ const popUp = document.querySelector('.pop__up__conteiner');
  
-const popButton = document.querySelector('.button__slider__pet');
-
-const popUp = document.querySelector('.pop__up__conteiner');
-
-const closePopUp = document.querySelector('.button__pop-up');
-
-popButton.addEventListener('click', () => {
-    popUp.classList.toggle('hidden')
-})
-
-closePopUp.addEventListener('click', () =>{
-    popUp.classList.toggle('hidden')
-})
-
+ 
+ const closePopUp = document.querySelector('.button__pop-up');
+ 
+ 
+ 
+ popButton.addEventListener('click', () => {
+     popUp.classList.toggle('hidden')
+ })
+ 
+ closePopUp.addEventListener('click', () =>{
+     popUp.classList.toggle('hidden')
+ })
+ 
+ 
+ 
+ 
+ 
+  if (popUp && closePopUp){
+ document.onclick = function (e) {
+    
+     if (e.target.className != ".pop__up__conteiner") {
+         popUp.classList.toggle('hidden')
+     };
+ };} 
+ 
 /*-----------------------------------------*/
 
